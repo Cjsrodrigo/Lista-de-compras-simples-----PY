@@ -2,7 +2,7 @@ import .uuid
 
 def exibir_cabecalho():
     print()
-    print("--- Lista de Compras Simples ---")
+    print("Lista de Compras Simples")
     print("Bem-vindo ao aplicativo de lista de compras!\n")
 
 def menu():
@@ -77,7 +77,7 @@ def pesquisar_produtos(produtos):
         print("Nenhum produto encontrado com esse nome.")
 
 
-def main():
+def funcionalidade():
     produtos = {}
 
     while True:
@@ -99,4 +99,4 @@ def main():
         else:
             print("Opção inválida. Por favor, escolha uma opção entre 1 e 4.")
 
-main()
+funcionalidade()
